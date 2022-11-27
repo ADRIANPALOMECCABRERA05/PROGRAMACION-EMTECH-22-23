@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARGENTMEX FOOD - Inicio</title>
+    <link rel="shortcut icon" href="./Imagenes/descarga.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="barradenavegacionprincipal">
             <ul>
                 <li>
                     <a href="./index.html">Inicio</a>
@@ -24,28 +26,46 @@
                 </li>
             </ul>
         </nav>
-       <section>
-        <div>
-            <h1>Audio Piloto delete after</h1>
-            <audio src="./Audios/y2mate.com - Ludovico Einaudi  Experience.mp3.webm"controls>Ludovico Einaudi - Experience</audio>
-        </div>
-       </section>
        <div>
-        <h1>BIENVENIDOS</h1>
+        <h1>Bienvenidos</h1>
         <h2>ARGENTMEX, comida internacional a tu mesa</h2>
        </div>
         <div>
-            <img src="./Imagenes/ARGENTMEX LOGO.JPG" alt="Logo del Restaurante">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugiat esse, aspernatur veritatis iusto sequi dolore recusandae dignissimos atque quas possimus maxime dolores vel. Mollitia libero suscipit dignissimos quaerat non.</p>
+            <img id="logoindex" src="./Imagenes/ARGENTMEX LOGO.JPG" alt="Logo del Restaurante">
         </div>
     </header>
     <main>
         <h1>Video Promocional</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/XmttZ-BnwaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="videopromocional" width="560" height="315" src="https://www.youtube.com/embed/XmttZ-BnwaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </main>
     <footer>
+        <section>
+            <h1>
+                Se parte de nuestra comunidad y ayudanos a mejorar nuestros menus
+            </h1>
+            <h2>Unete a nosotros!</h2>
+            <form class="Suscripcion">
+                <input type="email" name=""id="" placeholder="ingresa tu email">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
         <p>ArgentMex ---- All Rights Reserved
             <p>2022 - 2023</p>
+            <div>
+                <a href="http://es-la.facebook.com" target="_blank">
+                    <iconify-icon class="logodefacebook" icon="ion:logo-facebook"></iconify-icon>
+                </a>
+                <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+            </div>
+            <div>
+                <a href="http://www.instagram.com" target="_blank">
+                    <iconify-icon class="logodeinstagram" icon="mdi:instagram"></iconify-icon>
+                </a>
+                <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>   
+            </div>
+            
         </p>
     </footer>
 </body>

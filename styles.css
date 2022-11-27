@@ -1,0 +1,48 @@
+.barradenavegacionprincipal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    border: solid;
+    background: linear-gradient(#99a3a4, #424949);
+}
+
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.videopromocional {
+    margin-left: 25rem;
+}
+
+#logoindex {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-left: 40rem;
+}
+.logodefacebook{
+    font-size: 50px;
+    margin-left: 40rem;
+}
+.logodeinstagram{
+    font-size: 50px;
+    margin-left: 45rem;
+    margin-bottom: 10rem;
+}
+.Suscripcion{
+    margin-left: 35rem;
+}
