@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haz tu pedido</title>
+    <link rel="shortcut icon" href="./Imagenes/descarga.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <Header>
-        <nav>
+        <nav id="barradenavegaciondehacerpedido">
             <ul>
                 <li>
                     <a href="./index.html">Inicio</a>
@@ -26,12 +27,12 @@
             </ul>
         </nav>
         <div>
-            <img src="./Imagenes/ARGENTMEX LOGO.JPG" alt="LOgo restaurant">
+            <img id="logohacerpedido" src="./Imagenes/ARGENTMEX LOGO.JPG" alt="LOgo restaurant">
         </div>
         <main>
             <section>
                 <h1>Como comprar?</h1>
-                <ol>
+                <ol class="barradecomocomprar">
                     <li>Selecciona los productos</li>
                     <li>Enviar al carrito</li>
                     <li>COMPRAR¡</li>
@@ -39,7 +40,7 @@
             </section>
             <section>
                 <h1> Menu del dia. (Actualizado cada dia)</h1>
-                <table>
+                <table class="menudeldia">
                     <tr>
                         <td>Desayuno</td>
                         <td>Comida</td>
@@ -60,9 +61,9 @@
             <div>
                 <section>
                     <h1>Envianos tus platillos para ampliar tu menu.</h1>
-                    <textarea name="Envianos tus sugerencias de platillos" id="" cols="30" rows="10" placeholder></textarea>
+                    <textarea class="enviartucomentario" name="Envianos tus sugerencias de platillos" id="" cols="30" rows="10" placeholder></textarea>
                     <div>
-                        <input type="submit" value="Enviar Sugerencia">
+                        <input class="enviartucomentario" type="submit" value="Enviar Sugerencia">
                     </div>
                 </section>
             </div>
@@ -70,5 +71,17 @@
         <footer>
             <p>ArgentMex ---- All Rights Reserved</p>
             <p>2022 - 2023</p>
+            <div>
+                <a href="http://es-la.facebook.com" target="_blank">
+                    <iconify-icon class="logodefacebook" icon="ion:logo-facebook"></iconify-icon>
+                </a>
+                <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+            </div>
+            <div>
+                <a href="http://www.instagram.com" target="_blank">
+                    <iconify-icon class="logodeinstagram" icon="mdi:instagram"></iconify-icon>
+                </a>
+                <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>   
+            </div>
         </footer>
     </Header>

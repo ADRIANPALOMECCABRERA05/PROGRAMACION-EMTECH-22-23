@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="shortcut icon" href="./Imagenes/descarga.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <Header>
-        <nav>
+        <nav id="barraprincipaldecontacto">
             <ul>
                 <li>
                     <a href="./index.html">Inicio</a>
@@ -26,12 +27,12 @@
                 </li>
             </ul>
             <div>
-                <img src="./Imagenes/ARGENTMEX LOGO.JPG" alt="Logo">
+                <img id="logodecontacto" src="./Imagenes/ARGENTMEX LOGO.JPG" alt="Logo">
             </div>
             <main>
                 <h1>Contactanos¡</h1>
                 <section>
-                    <form>
+                    <form class="formulariodecontacto">
                         <label for="">Ingresa tu nombre</label>
                         <input type="text" name="" id="">
                         <label for="">Ingresa tus apellidos</label>
@@ -41,10 +42,10 @@
                         <input type="email" name=""placeholder="Ingresa tu email" id="">
                         <input type="password" name=""placeholder="Ingresa tu contraseña" id="">
                         <div>
-                            <textarea name="" id="" cols="30" rows="10"
+                            <textarea class="enviodecomentario" name="" id="" cols="30" rows="10"
                             placeholder="Envianos tus comentarios"></textarea>
                             <div>
-                                <input type="submit" value="Enviar Formulario">
+                                <input class="botondeenviar" type="submit" value="Enviar Formulario">
                             </div>
                             <div>
                                 <h3>Tipo de Pedido</h3>
@@ -53,7 +54,7 @@
                                 <label for="">Delivery</label>
                                 <input type="radio" name="tipodepedido" id="">
                             </div>
-                            <input type="submit" value="Enviar Formulario">
+                            <input class="botondeenviar" type="submit" value="Enviar Formulario">
                         </div>
                         <div>
                             <h2>Cual es su forma de pago</h2>
@@ -62,7 +63,7 @@
                             <label for="">Moneda Argentina</label>
                             <input type="checkbox" name="" id="">
                             <div>
-                                <input type="submit" value="Enviar formulario">
+                                <input class="botondeenviar" type="submit" value="Enviar formulario">
                             </div>
                         </div>
                         <div>
@@ -74,7 +75,7 @@
                                 <option value="">Choripan</option>
                             </select>
                                 <div>
-                                <input type="submit" value="Enviar Pedido">
+                                <input class="botondeenviar" type="submit" value="Enviar Pedido">
                             </div>
                         </div>
                     </form>
@@ -83,6 +84,17 @@
             <footer>
                 <p>ArgentMex ---- All Rights Reserved</p>
                 <p>2022 - 2023</p>
+                <div>
+                    <a href="http://es-la.facebook.com" target="_blank">
+                        <iconify-icon class="logodefacebook" icon="ion:logo-facebook"></iconify-icon>
+                    </a>
+                    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+                </div>
+                <div>
+                    <a href="http://www.instagram.com" target="_blank">
+                        <iconify-icon class="logodeinstagram" icon="mdi:instagram"></iconify-icon>
+                    </a>
+                    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>   
             </footer>
         </nav>
     </Header>

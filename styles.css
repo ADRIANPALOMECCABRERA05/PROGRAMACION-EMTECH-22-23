@@ -33,16 +33,128 @@ p {
     height: 5rem;
     border-radius: 50%;
     margin-left: 40rem;
+    border: solid;
 }
-.logodefacebook{
+
+.logodefacebook {
     font-size: 50px;
     margin-left: 40rem;
 }
-.logodeinstagram{
+
+.logodeinstagram {
     font-size: 50px;
     margin-left: 45rem;
     margin-bottom: 10rem;
 }
-.Suscripcion{
+
+.Suscripcion {
     margin-left: 35rem;
+}
+
+inicia HTML de hacer pedidos #barradenavegaciondehacerpedido {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logohacerpedido {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-left: 40rem;
+    border: solid;
+    background: linear-gradient(#0E6251, #1ABC9C);
+}
+
+.barradecomocomprar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.menudeldia {
+    text-align: center;
+    margin-left: 35rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid crimson
+}
+
+.enviartucomentario {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: #424949;
+    border: solid;
+    margin-left: 35rem;
+}
+
+inicia html de contacto
+
+#barraprincipaldecontacto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+#logodecontacto{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-left: 40rem;
+    border: solid;
+    background: linear-gradient(#0E6251, #1ABC9C);
+}
+.formulariodecontacto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.enviodecomentario{
+    margin-top: 2rem;
+    border: solid;
+}
+h3{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    border: solid;
+    background: linear-gradient(#99a3a4, #424949); 
+}
+.botondeenviar{
+    margin-top: 2rem;
+}
+
+inicia html ubicaciones
+
+.barradenavegacionubicacion {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+#logodeubicacion{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-left: 40rem;
+    border: solid;
+    background: linear-gradient(#0E6251, #1ABC9C); 
+}
+.sucursalpueblaimagen{
+    border: solid;
+    margin-left: 10rem;
+}
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.mapas{
+    margin-left: 25rem;
+    border-color: black;
+    border: solid;
+}
+.sucursalbuenosairesimagen{
+    border: solid;
+    margin-left: 35rem;
+}
+
+.logodewats{
+    margin-left: 35rem;
+}
+.logodeinsta{
+margin-left: 40rem;
 }
