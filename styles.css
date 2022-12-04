@@ -1,6 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.imagenprincipal{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    width: 50%;
+    height: 600px;
+    background:url(./Imagenes/descarga.jpg)no-repeat center / cover;
+}
+
+
+body {
+    background-color: #99a3a4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 .barradenavegacionprincipal {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 0, 0);
+    width: 900px;
+    margin: 0;
+}
+
+header {
+    background: white;
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
 }
 
 h1 {
@@ -8,8 +54,6 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 5px;
-    border: solid;
-    background: linear-gradient(#99a3a4, #424949);
 }
 
 h2 {
@@ -32,8 +76,82 @@ p {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    margin-left: 40rem;
-    border: solid;
+    float: left;
+    padding: 8px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+    padding: 12px 0px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+nav ul li a::before {
+    display: block;
+    content: "";
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+}
+
+.buscar{
+    position: relative;
+    padding: 5px;
+    margin-top: 25px;
+    position: relative;
+    display: block;
+    content: "";
+    float: right;
+}
+.buscar input{
+    width: 0px;
+    height: 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.2s;
+}
+.btn{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    top: 0;
+    right: 0;
+    background: gray;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.buscar:hover:input{
+    width: 240px;
+}
+
+.buscar input:focus{
+    width: 240px;
 }
 
 .logodefacebook {
@@ -84,14 +202,12 @@ inicia HTML de hacer pedidos #barradenavegaciondehacerpedido {
     margin-left: 35rem;
 }
 
-inicia html de contacto
-
-#barraprincipaldecontacto{
+inicia html de contacto #barraprincipaldecontacto {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 0, 0);
 }
 
-#logodecontacto{
+#logodecontacto {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
@@ -99,62 +215,70 @@ inicia html de contacto
     border: solid;
     background: linear-gradient(#0E6251, #1ABC9C);
 }
-.formulariodecontacto{
+
+.formulariodecontacto {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
-.enviodecomentario{
+
+.enviodecomentario {
     margin-top: 2rem;
     border: solid;
 }
-h3{
+
+h3 {
     color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 5px;
     border: solid;
-    background: linear-gradient(#99a3a4, #424949); 
+    background: linear-gradient(#99a3a4, #424949);
 }
-.botondeenviar{
+
+.botondeenviar {
     margin-top: 2rem;
 }
 
-inicia html ubicaciones
-
-.barradenavegacionubicacion {
+inicia html ubicaciones .barradenavegacionubicacion {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 0, 0);
 }
-#logodeubicacion{
+
+#logodeubicacion {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
     margin-left: 40rem;
     border: solid;
-    background: linear-gradient(#0E6251, #1ABC9C); 
+    background: linear-gradient(#0E6251, #1ABC9C);
 }
-.sucursalpueblaimagen{
+
+.sucursalpueblaimagen {
     border: solid;
     margin-left: 10rem;
 }
+
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 0, 0);
 }
-.mapas{
+
+.mapas {
     margin-left: 25rem;
     border-color: black;
     border: solid;
 }
-.sucursalbuenosairesimagen{
+
+.sucursalbuenosairesimagen {
     border: solid;
     margin-left: 35rem;
 }
 
-.logodewats{
+.logodewats {
     margin-left: 35rem;
 }
-.logodeinsta{
-margin-left: 40rem;
+
+.logodeinsta {
+    margin-left: 40rem;
 }
