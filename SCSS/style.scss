@@ -1,3 +1,40 @@
+@import "variables";
+@import "mixin";
 @import "navbar";
 @import "footer";
 @import "body";
+
+$gris : grey;
+$sombra : red;
+
+
+
+$breakpoints: (
+    sm : 540px,
+    md : 768px,
+    lg : 1024px,
+
+
+);
+
+@mixin media-up($breakpoint) {
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)){
+        @content
+    }
+
+}
+
+.secciondeprueba{
+    transition: all 4000ns ease;
+@include media-up(sm){
+transform: scale(0.5);
+}
+
+@include media-up(md){
+    transform: scale(1.5)
+}
+
+@include media-up(lg){
+background-color: $gris ;
+}
+}

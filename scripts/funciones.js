@@ -11,4 +11,4 @@
 
 //const saludar = nombre => console.log("hola")
 
-
+const productos = ("hola", 54, "papas fritas", tres)
